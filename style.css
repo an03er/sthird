@@ -1,0 +1,117 @@
+body{
+    background-color: #fbf3db;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4e4634;
+    font-size: 18px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    width: 550px;
+    height: 50px;
+    padding-left: 10px;
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    border:solid 1px;
+    outline: none;
+    border-bottom: none;
+}
+.text::placeholder{
+    color: #2e2c28;
+}
+.text:focus::placeholder {
+    color: transparent;
+    transition: 0.2s ease;
+}
+.chek{
+    width: 30px;
+    border: solid 5px #e1a883;
+}
+h2{
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.select{
+    width: 562px;
+    padding-left: 30px;
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin: 0px;
+    border-bottom: none;
+}
+.gender{
+    width: 550px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 30px;
+    border:solid 1px;
+    outline: none;
+    border-bottom: none;
+}
+.chek{
+    margin-left: 5px;
+}
+.textarea{
+    width: 550px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 30px;
+    border:solid 1px;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.submit{
+    margin: 50px;
+    background-color: transparent;
+    color: #4e4634;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+.text:focus{
+    background-color: #bb7364;
+    transition: 0.3s ease;
+}
+.submit:focus{
+    background-color: #bb7364;
+    transition: 0.3s ease;
+}
+.textarea:focus{
+    background-color: #bb7364;
+    transition: 0.3s ease;
+}
+.head{
+    text-align: center;
+    margin: 80px;
+}
+body{
+    margin: 0px;
+}
+.cat{
+    mix-blend-mode: multiply;
+    width: 150px;
+    display: flex;
+    float: right;
+    margin-right: 0px;
+}
+.catSecond{
+    mix-blend-mode: multiply;
+    width: 200px;
+}
+.catThird{
+    mix-blend-mode: multiply;
+    width: 150px;
+    float: right;
+}

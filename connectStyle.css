@@ -1,0 +1,26 @@
+a{
+    margin: 50px;
+    background-color: transparent;
+    color: #4e4634;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    border: solid 1px;
+    padding: 10px;
+    text-decoration: none;
+}
+body{
+    align-items: center;
+    background-color: #fbf3db;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4e4634;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 250px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
